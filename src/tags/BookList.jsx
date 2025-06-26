@@ -31,7 +31,7 @@ let BookList = () => {
 
   return (
     <>
-      <h2>도서목록</h2>
+      <h2>도서목록2</h2>
       <table>
         <thead>
           <tr>
