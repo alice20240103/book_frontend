@@ -6,8 +6,7 @@ let BookList = () => {
 
   //도서목록을 가져 오는 함수
   const fetchBooks = async () => {
-    // const res = await axios.get("http://3.34.124.23:8080/api/books");
-    const res = await axios.get("http://myapp:8080/api/books");
+    const res = await axios.get("http://3.34.124.23:8080/api/books");
     setList(res.data);
   };
 
